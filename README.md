@@ -1,7 +1,7 @@
 # Expanding button
 
- <img src="https://s10.gifyu.com/images/SYERY.gif" height="800">
-
+| <img src="https://s10.gifyu.com/images/SYERY.gif" height="800"> |  <img src="https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png">
+ 
 
 **Gum button**. Contains `Small`, `Medium`, `Large` sizes.
 I tried to recreate the gum effect of the button.
