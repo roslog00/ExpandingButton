@@ -1,6 +1,6 @@
 # Expanding button
 
-![Expanding Button](https://i.postimg.cc/FFLb4sWg/New-Video.gif)
+![Button](https://i.postimg.cc/FFLb4sWg/New-Video.gif)
 
 **Gum button**. Contains `Small`, `Medium`, `Large` sizes.
 I tried to recreate the gum effect of the button.
