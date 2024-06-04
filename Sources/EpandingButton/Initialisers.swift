@@ -4,6 +4,7 @@ import SwiftUI
 @available(macOS 13.0, *)
 extension ExpandingButton {
     init(text: String,
+         font: Font? = nil,
          size: SizeButton = .m)
     {
         self.text = text
@@ -12,9 +13,11 @@ extension ExpandingButton {
         self.backgroundColor = .black
         self._kerning = nil
         self._cornerRadius = nil
+        self._font = font
     }
     
     init(text: String,
+         font: Font? = nil,
          textColor: Color,
          rectangleColor: Color)
     {
@@ -24,9 +27,11 @@ extension ExpandingButton {
         self.backgroundColor = rectangleColor
         self._kerning = nil
         self._cornerRadius = nil
+        self._font = font
     }
     
     init(text: String,
+         font: Font? = nil,
          size: SizeButton,
          textColor: Color,
          rectangleColor: Color)
@@ -37,9 +42,11 @@ extension ExpandingButton {
         self.backgroundColor = rectangleColor
         self._kerning = nil
         self._cornerRadius = nil
+        self._font = font
     }
     
     init(text: String,
+         font: Font? = nil,
          kerning: CGFloat)
     {
         self.text = text
@@ -48,9 +55,11 @@ extension ExpandingButton {
         self.backgroundColor = .black
         self._kerning = kerning <= 1 ? 2 : kerning
         self._cornerRadius = nil
+        self._font = font
     }
     
     init(text: String,
+         font: Font? = nil,
          kerning: CGFloat,
          cornerRadius: CGFloat)
     {
@@ -60,5 +69,6 @@ extension ExpandingButton {
         self.backgroundColor = .black
         self._kerning = kerning <= 1 ? 2 : kerning
         self._cornerRadius = cornerRadius
+        self._font = font
     }
 }

@@ -11,23 +11,27 @@ struct ExpandingButton: View {
     let backgroundColor: Color
     
     //Optional values
+    let _font: Font?
     let _cornerRadius: CGFloat?
     let _kerning: CGFloat?
     
+    
     //Default init
     init(text: String,
+         font: Font? = nil,
          size: SizeButton = .m,
          textColor: Color = .white,
-         rectangleColor: Color = .black,
+         backgroundColor: Color = .black,
          cornerRadius: CGFloat? = nil,
          kerning: CGFloat? = nil)
     {
         self.text = text
         self.size = size
         self.textColor = textColor
-        self.backgroundColor = rectangleColor
+        self.backgroundColor = backgroundColor
         self._kerning = kerning
         self._cornerRadius = cornerRadius
+        self._font = font
     }
     
     //Stretchability
@@ -53,10 +57,10 @@ struct ExpandingButton: View {
         Text(text)
             .animation(.default, value: click)
             .foregroundStyle(textColor)
+            .font(_font)
             .kerning(kerning)
             .lineLimit(1)
             .padding(.horizontal, paddings.horizontal)
             .padding(.vertical, paddings.vertical)
     }
 }
-
