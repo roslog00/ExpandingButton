@@ -1,5 +1,8 @@
 # Expanding button
 
+<p align="center">
+  <img src="https://s10.gifyu.com/images/SYERY.gif" height="150">
+</p>
 ![Button](https://s10.gifyu.com/images/SYERY.gif)
 
 **Gum button**. Contains `Small`, `Medium`, `Large` sizes.
