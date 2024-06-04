@@ -2,18 +2,16 @@
 
 <p float="left">
   <img src="https://s10.gifyu.com/images/SYERY.gif" width="45%">
-   <img src="https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png" width="400">
+  ```swift
+enum SizeButton {
+    case s, m, l
+}
+```
 </p>
  
 
 **Gum button**. Contains `Small`, `Medium`, `Large` sizes.
 I tried to recreate the gum effect of the button.
-
-```swift
-enum SizeButton {
-    case s, m, l
-}
-```
 
 ![Expanding Button](https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png)
 
