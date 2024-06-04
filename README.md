@@ -2,7 +2,7 @@
 
 <p float="left">
   <img src="https://s10.gifyu.com/images/SYERY.gif" width="45%">
-   <img src="https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png">
+   <img src="https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png" width="400">
 </p>
  
 
