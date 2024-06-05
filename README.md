@@ -57,3 +57,8 @@ let button = ExpandingButton(text: "Agree",
                              cornerRadius: 20,
                              kerning: 40)
 ```
+
+## Contacts 
+
+Telegram: https://t.me/chebakovdev
+LinkedIn: https://www.linkedin.com/in/George-chebakov
