@@ -16,10 +16,6 @@ enum SizeButton {
 
 ![Expanding Button](https://i.postimg.cc/B60ZQLsm/2024-06-04-19-47-55.png)
 
-# Navigate
-- [Swift Package Manager](#swift-package-manager)
-
-
 ### Swift Package Manager
 
 In Xcode go to Project -> Your Project Name -> `Package Dependencies` -> Tap _Plus_. Insert url:
